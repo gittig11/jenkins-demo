@@ -9,7 +9,7 @@ const path = require('path')
 const static = require('koa-static')
 const send = require('koa-send')
 const app = new Koa()
-const staticPath = './dist'
+const staticPath = './'
 const opts = {
   maxage: 1000 * 60 * 60 * 24 * 365, // 1年，默认为0
   // hidden: false, // 能否返回隐藏文件（以`.`打头），默认false不返回
